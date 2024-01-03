@@ -95,7 +95,6 @@
 /* New Task */
 .section__item_add-task .task__input {
   display: block;
-  margin: 0 0 20px;
 }
 .section__item_add-task .task__input {
   width: 318px;
@@ -105,14 +104,9 @@
 .task {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.task > * {
-  vertical-align: middle;
 }
 
 .task__checkbox {
